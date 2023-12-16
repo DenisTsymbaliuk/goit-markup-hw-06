@@ -1299,9 +1299,12 @@ input:checked + .form-label-checkbox > .form-label-span {
   transform: translateX(100%);
   padding: 0 24px 40px 16px;
 }
-.mobile-menu-wraper.is-open {
+.mobile-menu-wraper {
   transform: translateX(0%);
   transition: 250ms;
+  visibility: hidden;
+  opacity: 1;
+  pointer-events: auto;
 }
 .mobile-nav {
   margin-bottom: 168px;
