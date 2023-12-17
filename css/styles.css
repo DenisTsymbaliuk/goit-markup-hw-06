@@ -1035,6 +1035,7 @@ input::placeholder {
   .end-footer {
     margin-bottom: 0;
     width: 264px;
+    margin-right: 24px;
   }
   .end-text {
     text-align: left;
@@ -1043,7 +1044,6 @@ input::placeholder {
   .end-wrap {
     margin-bottom: 72px;
     display: flex;
-    gap: 24px;
   }
   .social {
     margin-bottom: 16px;
@@ -1074,9 +1074,7 @@ input::placeholder {
 
 @media screen and (min-width: 1158px) {
   .end-wrap {
-    min-width: 584px;
     justify-content: flex-start;
-    margin-right: 120px;
   }
   .end-content {
     margin-right: 80px;
@@ -1089,6 +1087,7 @@ input::placeholder {
   }
   .end-footer {
     max-width: 264px;
+    margin-right: 120px;
   }
   .end-wrap {
     margin: 0 auto;
