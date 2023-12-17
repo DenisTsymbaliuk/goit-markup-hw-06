@@ -728,7 +728,6 @@ input {
   }
   .our-team-container {
     width: 1158px;
-    margin: 0 auto;
   }
 
   .title-our-team {
@@ -863,8 +862,10 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
-    width: 1128px;
+    width: 1158px;
+  }
+  .our-portfolio {
+    padding: 120px 0;
   }
   .title-portfolio {
     display: flex;
@@ -976,9 +977,6 @@ input {
   text-align: left;
   color: #f4f4fd;
 }
-.end-wrap {
-  margin-bottom: 72px;
-}
 .social {
   margin-bottom: 16px;
 }
@@ -1025,9 +1023,7 @@ input::placeholder {
 
     text-align: left;
   }
-  .end-cont {
-    max-width: 582px;
-  }
+
   .logo-cont {
     display: inline-block;
     margin-bottom: 16px;
@@ -1035,14 +1031,12 @@ input::placeholder {
   .end-footer {
     margin-bottom: 0;
     width: 264px;
-    margin-right: 24px;
   }
   .end-text {
     text-align: left;
     color: #f4f4fd;
   }
   .end-wrap {
-    margin-bottom: 72px;
     display: flex;
   }
   .social {
@@ -1090,8 +1084,7 @@ input::placeholder {
     margin-right: 120px;
   }
   .end-wrap {
-    margin: 0 auto;
-    max-width: 1288px;
+    max-width: 1158px;
   }
 }
 /*-------------------Mobaile MW---------------------*/
